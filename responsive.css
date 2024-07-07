@@ -1,0 +1,65 @@
+@media (max-width: 600px) {
+    
+    html, body {
+        width: fit-content;
+    }
+
+      header {
+        position: relative;
+        height: fit-content;
+        width: fit-content;
+      }
+
+     .nav-logo {
+        position: relative;
+        left: 20px;
+      height: 24px;
+      width: 88px;
+      }
+
+.nav-content {
+    position: relative;
+    top: 6px;
+    margin-right:140px;
+}
+.nav-content a {
+    height: 32px;
+    width: 76px;
+    font-size: 16px;
+}
+
+.header-content {
+    position: relative;
+     left: -10px;
+    bottom: 60px;
+    width: 450px;
+    line-height: 60px;
+}
+.header-content h1 {
+    font-size: 32px;
+
+}
+.header-content p {
+    font-size: 18px;
+}
+.header-content h3 {
+    line-height: 30px;
+    font-size: 18px;
+}
+.header-content input {
+  height: 48px;
+  width: 294px;
+}
+.header-content button {
+    height: 48px;
+    width: 160px;
+}
+
+ .header-content i {
+    font-size: 15px;
+    position: relative;
+    top: 7px;
+    left: -10%;
+    padding-left: -10px;
+ }
+}
