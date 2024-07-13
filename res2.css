@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    width: fit-content;
+  }
+  .nav-logo {
+    height: 6rem;
+    width: 11.5rem;
+  }
+
+  .nav-content select {
+    height: 4rem;
+    width: 6.5rem;
+    font-size: 1.65rem;
+  }
+
+  .header-content {
+    margin-top: 5%;
+    line-height: 75px;
+  }
+  .nav-content a {
+    height: 4rem;
+    width: 6.5rem;
+    padding-top: 15px;
+    font-size: 1.45rem;
+  }
+  #heading {
+    font-size: 4rem;
+  }
+  .header-content p {
+    font-size: 2.5rem;
+  }
+
+  .header-content h3 {
+    font-size: 1.7rem;
+  }
+
+  .header-content button {
+    top: 0;
+  }
+
+  .main-content2 {
+    flex-direction: column;
+  }
+
+  .main-box4 {
+    width: 50%;
+  }
+
+  .main-box6 {
+    top: 0;
+  }
+
+  .main-box5 {
+    width: 51%;
+    left: 20px;
+  }
+}
+
+@media (max-width: 1247px) {
+  html,
+  body {
+    width: fit-content;
+  }
+  .main-content2 {
+    flex-direction: column;
+  }
+
+  .main-box4 {
+    width: 50%;
+  }
+
+  .main-box6 {
+    top: 0;
+  }
+
+  .main-box5 {
+    width: 51%;
+    left: 20px;
+    top: 0;
+  }
+}
